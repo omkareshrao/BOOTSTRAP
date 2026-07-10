@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap utilities example</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <!--Animate.css for animations-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" referrerpolicy="no-referrer" />
+<style>
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .img-fluid {
+        max-width: 100%;
+        height:auto;
+    }
+</style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center mt-4">Bootstrap Utilities Example</h1>
+
+        <!-- Example of spacing utilities -->
+        <div class="mt-4">
+            <h4>Spacing Utilities</h4>
+            <div class="p-2 bg-primary text-white">Padding 2</div>
+            <div class="m-2 border border-primary">Margin 2 with border</div>
+        </div>
+        <!--Border utilities-->
+        <div class="mt-4">
+            <h4>Border Utilities</h4>
+            <div class="border border-success p-2">Success Border</div>
+        </div>
+        <!--Colour utilities-->
+        <div class="mt-4">
+            <h4>Color Utilities</h4>
+            <div class="bg-warning text-dark p-2">Warning Background</div>
+            <div class="bg-info text-white p-2">Info Background</div>
+        </div>
+
+        <!--Animated Utilities-->
+        <div class="row mt 4">
+            <div class="col-md-4 animate__animated animate__fadeInLeft">
+                <img src="https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="placeholder" class="img-fluid">
+                <p class="mt-2">Sample Text with animation</p>
+            </div>
+            <div class="col-md-4 animate__animated animate__fadeInUp">
+                <img src="https://images.unsplash.com/photo-1476820865390-c52aeebb9891?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="placeholder" class="img-fluid">
+                <p class="mt-2">Sample Text with animation</p>
+            </div>
+            <div class="col-md-4 animate__animated animate__fadeInRight">
+                <img src="https://plus.unsplash.com/premium_photo-1685868556097-641c237f3fa5?q=80&w=1628&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="placeholder" class="img-fluid">
+                <p class="mt-2">Sample Text with animation</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.js" referrerpolicy="no-referrer"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Alerts</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-5">
+
+    <h2 class="mb-4">Bootstrap Alert Examples</h2>
+
+    <div class="alert alert-primary" role="alert">
+        This is a Primary Alert.
+    </div>
+
+    <div class="alert alert-secondary" role="alert">
+        This is a Secondary Alert.
+    </div>
+
+    <div class="alert alert-success" role="alert">
+        This is a Success Alert.
+    </div>
+
+    <div class="alert alert-danger" role="alert">
+        This is a Danger Alert.
+    </div>
+
+    <div class="alert alert-warning" role="alert">
+        This is a Warning Alert.
+    </div>
+
+    <div class="alert alert-info" role="alert">
+        This is an Info Alert.
+    </div>
+
+    <div class="alert alert-light" role="alert">
+        This is a Light Alert.
+    </div>
+
+    <div class="alert alert-dark" role="alert">
+        This is a Dark Alert.
+    </div>
+
+    <!-- Dismissible Alert -->
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <strong>Success!</strong> Your data has been saved successfully.
+
+        <button type="button"
+                class="btn-close"
+                data-bs-dismiss="alert"
+                aria-label="Close">
+        </button>
+    </div>
+
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+
+<!--
+| Alert Class       | Purpose                  |
+| ----------------- | ------------------------ |
+| `alert-primary`   | Primary information      |
+| `alert-secondary` | Secondary information    |
+| `alert-success`   | Success messages         |
+| `alert-danger`    | Error or danger messages |
+| `alert-warning`   | Warning messages         |
+| `alert-info`      | Informational messages   |
+| `alert-light`     | Light-colored alert      |
+| `alert-dark`      | Dark-colored alert       |
+
+alert → Creates an alert box.
+alert-primary, alert-success, etc. → Sets the alert color and purpose.
+alert-dismissible → Makes the alert closable.
+fade show → Adds a smooth fade effect when closing.
+btn-close → Displays the close (×) button.
+data-bs-dismiss="alert" → Closes the alert when the button is clicked.
+-->
